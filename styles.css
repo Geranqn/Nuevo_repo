@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{ 
+    text-decoration: none;
+    color: black;}
+
+
+@media (max-width: 600px){
+        .header{flex-direction: column-reverse;}
+        .main{flex-direction: column;}
+        .footer{flex-direction: column;}
+}
+
+
+
+.header{
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem 0rem;
+        border-bottom: 5px solid black;
+        background-color: rgb(228, 235, 235);
+        align-items: center;}
+
+.logo{
+        height: 200px;
+        width: 200px;}
+.navegador{ 
+            list-style-type: none;}
+
+.navegador li{
+                display: inline-block;
+                margin: 3rem 1.5rem; 
+                text-decoration: none;
+}   
+.main{
+    display: flex;
+    align-items: center;
+    padding: 0rem 8rem;
+    border-bottom: 5px solid black;}
+
+.video{ 
+        width: 100%;
+        height: 100%;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;}
+
+.principal{ 
+            width: 600px;
+            height: 800px;
+            background-color: blueviolet;
+            flex-flow:wrap row  ;}
+ 
+
+
+.titulo {
+          width: 100%;
+}
+
+.titulo h1{
+            margin-bottom: 1.5rem;}
+
+
+.titulo h2{
+            border-bottom: 1rem;}
+
+.footer { 
+            align-content: center;
+            justify-content: center;
+            display: flex;}
+
+
+.servicios { 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;}
+
+.foto_uno {
+            width: 400px; 
+            height: 400px;}
+
+.foto_dos {
+            width: 400px ;
+            height: 400px;}
+
+.invocar { 
+            display: list-item;
+            margin-top: 100px;}
+
+
+.proveedores {
+            margin: 100px 30px 100px 150px;
+; }
+
+
+.trabajos {
+            align-items: center; 
+            justify-content: center;}
+
+.contacto{
+           justify-content: center;
+}
