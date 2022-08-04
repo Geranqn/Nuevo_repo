@@ -12,13 +12,21 @@ body{
 a{ 
     text-decoration: none;
     color: black;}
+.trabajo .trabajo_dos img{width: 200px;}
 
 
 @media (max-width: 600px){
         .header{flex-direction: column-reverse;}
         .main{flex-direction: column;}
         .footer{flex-direction: column;}
-        .trabajo_dos{flex-direction: column;}
+        .trabajo_dos{flex-direction: column;
+                        margin-left: 15rem;
+                justify-content: center;}
+        .pie .grupo_uno{width: 90%;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap:30px;
+                padding: 35px 0px;}
+        
 }
 
 .trabajo{
@@ -27,7 +35,8 @@ a{
 }
 
 .trabajo_dos{ display: flex;
-               justify-items: center;}
+               justify-items: center;
+        margin: auto;}
 
 .header{
         display: flex;
@@ -80,10 +89,62 @@ a{
 .titulo h2{
             border-bottom: 1rem;}
 
-.footer { 
-            align-content: center;
-            justify-content: center;
-            display: flex;}
+.pie{
+        width: 100%;
+        background-color: rgba(34, 31, 31, 0.829);}
+
+.pie .grupo_uno{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;}
+
+.pie .grupo_uno .box figure{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+.pie .grupo_uno .box figure img{
+                width: 250px;
+            }
+.pie .grupo_uno .box h2{
+                color: #fff;
+                margin-bottom: 25px;
+                font-size: 20px;
+            }
+.pie .grupo_uno .box p{
+                color: #efefef;
+                margin-bottom: 10px;
+            }
+.pie .grupo_uno .red-social a{
+                display: inline-block;
+                text-decoration: none;
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                color: #fff;
+                margin-right: 10px;
+                background-color: #52978c;
+                text-align: center;
+                transition: all 300ms ease;
+            }
+.pie .grupo_uno .red-social a:hover{
+                color: aqua;
+            }
+.pie .grupo_dos{
+                background-color: #585853b6;
+                padding: 15px 10px;
+                text-align: center;
+                color: #fff;
+            }
+.pie .grupo_dos small{
+                font-size: 15px;
+            }
 
 
 .servicios { 
