@@ -18,9 +18,16 @@ a{
         .header{flex-direction: column-reverse;}
         .main{flex-direction: column;}
         .footer{flex-direction: column;}
+        .trabajo_dos{flex-direction: column;}
 }
 
+.trabajo{
+        margin: 1rem 2rem 1rem 2rem;
 
+}
+
+.trabajo_dos{ display: flex;
+               justify-items: center;}
 
 .header{
         display: flex;
