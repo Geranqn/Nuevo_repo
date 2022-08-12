@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;}
+
+a{ 
+    text-decoration: none;
+    color: black;}
+
+    
+
+
+.main{
+        display: flex;
+        align-items: center;
+        padding: 0rem 8rem;
+        border-bottom: 5px solid black;}
+
+
+.video{ 
+        width: 100%;
+        height: 100%;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;}
+
+.principal{ 
+            width: 600px;
+            height: 800px;
+            background-color: blueviolet;
+            flex-flow:wrap row  ;}
+
+
+.servicios { 
+                display: flex; 
+                align-items: center; 
+                justify-content: center;}
+    
+.foto_uno {
+                width: 400px; 
+                height: 400px;}
+    
+.foto_dos {
+                width: 400px ;
+                height: 400px;}
+    
+.invocar { 
+                display: list-item;
+                margin-top: 100px;}
+    
+    
+.proveedores {
+                margin: 100px 30px 100px 150px;}
+    
+    
+.trabajos {
+                align-items: center; 
+                justify-content: center;}
+    
+.contacto{
+               justify-content: center;}
+
+.titulo {
+        width: 100%;
+        h1{
+          margin-bottom: 1.5rem;}
+        h2{
+              border-bottom: 1rem;}}
+
+
+
+.trabajo{
+    margin: 1rem 2rem 1rem 2rem;}
+
+.trabajo_dos{   display: flex;
+                justify-items: center;
+                margin: auto;
+                img{width: 200px;}}
+
+.carousel-inner{
+                width: 100%
+                    ;
+                height: 500px;}
+            
+            

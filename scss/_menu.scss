@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+    border-bottom: 5px solid black;
+    background-color: rgb(228, 235, 235);
+    align-items: center;}
+
+
+.logo{
+        height: 200px;
+        width: 200px;}
+
+
+.navegador{ 
+            list-style-type: none;
+            
+            li{
+                display: inline-block;
+                margin: 3rem 1.5rem; 
+                text-decoration: none;}}
