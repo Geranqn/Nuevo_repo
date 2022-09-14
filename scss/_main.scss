@@ -75,9 +75,86 @@ a{
                 margin: auto;
                 img{width: 200px;}}
 
-.carousel-inner{
-                width: 100%
-                    ;
-                height: 500px;}
-            
+.carrousel{
+      width: 100%;
+      
+  }
+  
+.conteCarrousel{
+      width: 100%;
+      height: 400px;
+      overflow: hidden;
+  }
+  
+.itemCarrousel{
+      position: relative;
+      width: 100%;
+      height: 100%;
+  }
+  
+.itemCarrouselTarjeta{
+      width: 100%;
+      height: 100%;
+  }
+
+img {
+  width: 100%;
+height: 100%;}
+  
+.itemCarrouselArrows{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%; 
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px; 
+  }
+  
+.itemCarrouselArrows > i:hover {
+      cursor: pointer;
+  }
+  
+#itemCarrousel-1{
+      background-color: rgb(226, 50, 50);
+  }
+  
+#itemCarrousel-2{
+      background-color: rgb(50, 200, 226);
+  }
+  
+#itemCarrousel-3{
+      background-color: rgb(200, 226, 50);
+  }
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #03afff;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+  }
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
             
