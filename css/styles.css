@@ -78,7 +78,12 @@ a {
   justify-content: center; }
 
 .contacto {
-  justify-content: center; }
+  justify-content: center;
+  margin-left: 300px; }
+
+.ubicacion{
+  margin-top: 30px;
+  margin-left: 300px;} 
 
 .titulo {
   width: 100%; }
